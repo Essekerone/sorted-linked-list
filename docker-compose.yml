@@ -1,0 +1,10 @@
+version: "3.9"
+
+services:
+  php:
+    build: .
+    container_name: list-php
+    volumes:
+      - ./:/www
+    working_dir: /www
+    tty: true

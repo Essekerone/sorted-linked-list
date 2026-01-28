@@ -1,0 +1,20 @@
+includes:
+    - phpstan-baseline.neon
+
+parameters:
+    level: 5
+
+    tmpDir: .phpstan
+
+    bootstrapFiles:
+        - ./phpstan-bootstrap.php
+
+    paths:
+        - src
+
+    scanDirectories:
+        - src
+
+    excludePaths:
+        analyse:
+            - tests

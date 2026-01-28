@@ -1,0 +1,13 @@
+parameters:
+	ignoreErrors:
+		-
+			message: '#^Strict comparison using \=\=\= between LinkedList\\Enum\\OrderTypes\:\:DESC and LinkedList\\Enum\\OrderTypes\:\:DESC will always evaluate to true\.$#'
+			identifier: identical.alwaysTrue
+			count: 2
+			path: src/LinkedList.php
+
+		-
+			message: '#^Unreachable statement \- code above always terminates\.$#'
+			identifier: deadCode.unreachable
+			count: 2
+			path: src/LinkedList.php
