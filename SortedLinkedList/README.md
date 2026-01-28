@@ -12,7 +12,7 @@ methods:
 
 Phpunit and phpstan with phpcs only for example, you can run after composer install
 - vendor/bin/phpstan
-- vendor/bin/phpunit
+- vendor/bin/phpunit // change phpunit.xml-dist file
 - vendor/bin/phpcs or phpcbf
 
 
